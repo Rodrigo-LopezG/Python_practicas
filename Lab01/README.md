@@ -10,6 +10,7 @@
 
 ### 1. Instalación de Poetry
 
+```bash
 Instalación recomendada (instalador oficial)
 Windows (PowerShell):
 
@@ -21,3 +22,4 @@ Verifica la instalación:
 poetry --versión
 
 Poetry (version 2.4.1)
+```
