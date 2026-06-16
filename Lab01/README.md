@@ -10,10 +10,14 @@
 
 ### 1. Instalación de Poetry
 
-```bash
-# Windows (PowerShell)
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | Invoke-Expression
+Instalación recomendada (instalador oficial)
+Windows (PowerShell):
 
-# Verificar instalación
-poetry --version
-```
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+
+Tras la instalación, añade Poetry a tu PATH. El instalador imprime la ruta exacta — normalmente $HOME/.local/bin en Linux/macOS o %APPDATA%\Python\Scripts en Windows.
+
+Verifica la instalación:
+poetry --versión
+
+Poetry (version 2.4.1)
